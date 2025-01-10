@@ -107,3 +107,24 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+/* Add mobile-specific styles */
+@media (max-width: 480px) {
+    .controls {
+        flex-direction: column;
+        gap: 0.8rem;
+        margin: 2rem auto;
+        max-width: 280px;
+    }
+
+    .controls button {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 16px;
+        font-weight: 600;
+    }
+
+    .controls button:active {
+        transform: scale(0.98);
+    }
+}
