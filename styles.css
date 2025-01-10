@@ -13,9 +13,9 @@ body {
 .container {
     text-align: center;
     background-color: white;
-    padding: 3rem;
+    padding: min(3rem, 5vw);
     margin: 1rem;
-    width: 100%;
+    width: calc(100% - 2rem);
     max-width: 500px;
     box-sizing: border-box;
     border-radius: 20px;
