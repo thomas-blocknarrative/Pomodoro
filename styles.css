@@ -109,22 +109,35 @@ h1 {
 }
 
 /* Add mobile-specific styles */
-@media (max-width: 480px) {
+@media screen and (max-width: 600px) {
+    .container {
+        padding: min(2rem, 4vw);
+        margin: 0.5rem;
+    }
+
     .controls {
         flex-direction: column;
         gap: 0.8rem;
         margin: 2rem auto;
-        max-width: 280px;
+        padding: 0 1rem;
     }
 
     .controls button {
         width: 100%;
-        padding: 1rem;
+        padding: 1.2rem;
         border-radius: 16px;
         font-weight: 600;
     }
 
     .controls button:active {
         transform: scale(0.98);
+    }
+
+    .timer {
+        font-size: 4.5rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
     }
 }
