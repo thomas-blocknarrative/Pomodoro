@@ -5,6 +5,8 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    padding: 1rem;
+    overflow-x: hidden;
     background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
 }
 
@@ -13,7 +15,8 @@ body {
     background-color: white;
     padding: 3rem;
     margin: 1rem;
-    max-width: 90%;
+    max-width: 100%;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     backdrop-filter: blur(10px);
