@@ -12,7 +12,6 @@ This is a simple Pomodoro Timer built with HTML, CSS, and JavaScript. It allows 
 ## Usage
 
 1. Open the `index.html` file in your browser.
-2. Set the work and break time using the input fields.
-3. Click the "Start" button to start the timer.
-4. Click the "Pause" button to pause the timer.
-5. Click the "Reset" button to reset the timer.
+2. Click the "Start" button to start the timer.
+3. Click the "Pause" button to pause the timer.
+4. Click the "Reset" button to reset the timer.
