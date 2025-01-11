@@ -14,7 +14,7 @@ function updateTitle() {
     const seconds = timeLeft % 60;
     const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
     const mode = isWorkTime ? 'Work' : 'Break';
-    document.title = `${timeString} - ${mode} Time - TomoDeMoro`;
+    document.title = `${timeString} - ${mode} Time - Pomodoro`;
 }
 
 function updateTimer() {
